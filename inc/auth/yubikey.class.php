@@ -9,7 +9,7 @@
 
 define('DOKU_AUTH', dirname(__FILE__));
 require_once(DOKU_AUTH.'/plain.class.php');
-require_once(DOKU_INC.'Yubikey.php');
+require_once(DOKU_INC.'inc/Yubikey.php');
 
 define('AUTH_YUBIKEY_FILE',DOKU_CONF.'yubikey.auth.php');
 define('AUTH_YUBIKEY_API_ID', -1);
