@@ -1,0 +1,14 @@
+# correspond users with yubikeys here in the following format:
+#
+# username:yubikey_id[,yubikey_id...]
+#
+# example:
+#   myuser:ccccccccccc,bbbbbbbbbbbb
+#
+# would allow user "myuser" to login with either of the two yubikeys with OTP id of
+# either "cccccccccccc" or "bbbbbbbbbbbb".
+#
+# Note: your yubikey's OTP id is the first twelve characters that get printed out
+#       when you tell it to print out an OTP
+#
+# Note: anything following a pound (#) symbol on a line will be ignored
