@@ -14,5 +14,3 @@ Depends on the Yubikey stand-alone webservice class found here:
 
 This class is currently included in the inc directory of this project.
 At the time of this writing the version that is included is 0.96.
-
-3. Installation
